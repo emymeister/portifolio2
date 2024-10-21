@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(218, 5, 147, 0.1);
+}
+
+.header {
+    background-color: #6d0764;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    
+}
+
+.menu {
+    background-color: #6d0764;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.about {
+    padding: 20px;
+    color: #6d0764;
+}
+
+.about img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    margin: 30px;
+}
+
+.education {
+    padding: 20px;
+    color: #6d0764;
+}
+
+.education ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+.education li {
+    margin-bottom: 10px;
+}
+
+.projects {
+    padding: 20px;
+    color: #6d0764;
+}
+
+.project-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-thumb {
+    margin: 20px;
+    width: calc(33.33% - 20px);
+}
+
+.project-thumb img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.project-thumb a {
+    text-decoration: none;
+    
+}
+
+.skills {
+    padding: 20px;
+    color: #6d0764;
+}
+
+.skills ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.skills li {
+    margin-bottom: 10px;
+}
+
+.contato {
+    padding: 20px;
+    color: #6d0764;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contato label {
+    margin-bottom: 10px;
+}
+
+.contato input, .contact textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+.contato input[type="submit"] {
+    background-color: #6d0764;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.rede-social {
+    padding: 20px;
+    color: #6d0764;
+}
+
+.rede-social ul {
+    
+    margin: 0;
+    padding: 0;
+
+}
+
+.rede-social li {
+    margin-bottom: 10px;
+}
+
+.rede-social a {
+    text-decoration: none;
+    color: #6d0764;
+}
+
